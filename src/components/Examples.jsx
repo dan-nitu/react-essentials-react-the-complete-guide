@@ -31,6 +31,9 @@ export default function Examples() {
   return (
     <Section title='Examples' id='examples'>
       <Tabs
+        ButtonsContainer='menu'
+        // 'string' for built-in html elements
+        // ComponentName for custom components (eg. Section, Tabs, TabButton)
         buttons={
           <>
             <TabButton
